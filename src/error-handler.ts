@@ -2,6 +2,7 @@ import { FastifyInstance } from "fastify";
 import { BadResquest } from "./routes/_errors/bad-requests";
 import { ZodError } from "zod";
 
+
 type FastifyErrorHandler = FastifyInstance["errorHandler"];
 
 export const errorHandler: FastifyErrorHandler = (error, request, reply) => {

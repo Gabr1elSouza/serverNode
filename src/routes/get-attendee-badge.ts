@@ -14,12 +14,12 @@ export async function getAttendeeBadge(app: FastifyInstance) {
         }),
         response:{
           200: z.object({
-            bagde: {
+            bagde: z.object( {
               name: z.string(),
               email: z.string().email(),
               eventTitle: z.string(),
               checkInURL: z.string().url(),
-            },
+            }),
           }),
         },
       },

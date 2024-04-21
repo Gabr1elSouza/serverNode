@@ -27,7 +27,7 @@ GET http://localhost:3333/attendees/8/badge
 
 ###
 
-GET http://localhost:3333/attendees/6/check-in
+GET http://localhost:3333/attendees/8/check-in
 
 ###
 GET http://localhost:3333/events/66df5ae6-1cf1-4563-9f7b-2fd242a2f82e/attendees?query=diego
